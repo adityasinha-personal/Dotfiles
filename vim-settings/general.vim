@@ -16,7 +16,7 @@ set scrolloff=8
 set colorcolumn=100
 set nobackup
 set noswapfile
-set clipboard+=unnamedplus
+set termguicolors
 
 "Marker line to switch to the next line
 highlight ColorColumn ctermbg=0 guibg=lightgrey

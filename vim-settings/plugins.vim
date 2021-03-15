@@ -1,14 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
-" Code Completion and LSP
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" File and Keyword fuzzy search
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-
-" Fuzzy coc references search
-Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
+" Language Server Protocol
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
 
 " Git
 Plug 'tpope/vim-fugitive' 
@@ -19,9 +13,6 @@ Plug 'morhetz/gruvbox'
 
 " Comments
 Plug 'tpope/vim-commentary'
-
-" Php-Refactoring
-Plug 'adoy/vim-php-refactoring-toolbox'
 
 " Autosave
 Plug '907th/vim-auto-save'
